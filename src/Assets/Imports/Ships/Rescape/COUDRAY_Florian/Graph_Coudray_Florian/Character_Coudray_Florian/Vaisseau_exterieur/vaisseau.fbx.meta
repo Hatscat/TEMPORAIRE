@@ -1,0 +1,125 @@
+fileFormatVersion: 2
+guid: 04548d415a8b43c4c8e64d655e815591
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: aileron_L_big
+    100002: aileron_L_small
+    100004: aileron_r_big
+    100006: aileron_r_small
+    100008: cockpit
+    100010: main_part
+    100012: reacteur
+    100014: reacteur_s_1
+    100016: reacteur_s_2
+    100018: underpart_spaceship
+    100020: //RootNode
+    100022: zone_window_KL
+    100024: zone_window_R
+    400000: aileron_L_big
+    400002: aileron_L_small
+    400004: aileron_r_big
+    400006: aileron_r_small
+    400008: cockpit
+    400010: main_part
+    400012: reacteur
+    400014: reacteur_s_1
+    400016: reacteur_s_2
+    400018: underpart_spaceship
+    400020: //RootNode
+    400022: zone_window_KL
+    400024: zone_window_R
+    2300000: aileron_L_big
+    2300002: aileron_L_small
+    2300004: aileron_r_big
+    2300006: aileron_r_small
+    2300008: cockpit
+    2300010: main_part
+    2300012: reacteur
+    2300014: reacteur_s_1
+    2300016: reacteur_s_2
+    2300018: underpart_spaceship
+    2300020: //RootNode
+    2300022: zone_window_KL
+    2300024: zone_window_R
+    3300000: aileron_L_big
+    3300002: aileron_L_small
+    3300004: aileron_r_big
+    3300006: aileron_r_small
+    3300008: cockpit
+    3300010: main_part
+    3300012: reacteur
+    3300014: reacteur_s_1
+    3300016: reacteur_s_2
+    3300018: underpart_spaceship
+    3300020: //RootNode
+    3300022: zone_window_KL
+    3300024: zone_window_R
+    4300000: Spaceship
+    4300002: zone_window_R
+    4300004: zone_window_KL
+    4300006: reacteur_s_2
+    4300008: reacteur_s_1
+    4300010: aileron_L_small
+    4300012: aileron_L_big
+    4300014: aileron_r_small
+    4300016: reacteur
+    4300018: aileron_r_big
+    4300020: cockpit
+    4300022: main_part
+    4300024: underpart_spaceship
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

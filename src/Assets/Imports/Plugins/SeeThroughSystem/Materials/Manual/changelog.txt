@@ -1,0 +1,8 @@
+1.3:
+ - added Colorize triggers option
+ - improved API for disabling/enabling/coloring triggers at runtime
+ - fixed D3D anti-aliasing mask flip problem
+
+1.2: Optimized background rendering: Added projection matrix change for background camera allowing rendering of only visible areas.
+
+1.1: Android compatibility added

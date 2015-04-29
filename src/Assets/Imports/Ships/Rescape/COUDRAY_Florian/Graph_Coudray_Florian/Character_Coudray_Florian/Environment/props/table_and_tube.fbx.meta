@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 5f8f91a565e43fe488059298dfee5715
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Box
+    100002: pied
+    100004: pied1
+    100006: pied2
+    100008: pied3
+    100010: Plank
+    100012: Plank2
+    100014: //RootNode
+    100016: tuyaux
+    100018: tuyaux1
+    100020: tuyaux2
+    100022: tuyaux_plane
+    100024: tuyaux_plane1
+    100026: Plank1
+    100028: table_c
+    400000: Box
+    400002: pied
+    400004: pied1
+    400006: pied2
+    400008: pied3
+    400010: Plank
+    400012: Plank2
+    400014: //RootNode
+    400016: tuyaux
+    400018: tuyaux1
+    400020: tuyaux2
+    400022: tuyaux_plane
+    400024: tuyaux_plane1
+    400026: Plank1
+    400028: table_c
+    2300000: Box
+    2300002: pied
+    2300004: pied1
+    2300006: pied2
+    2300008: pied3
+    2300010: Plank
+    2300012: Plank2
+    2300014: //RootNode
+    2300016: tuyaux
+    2300018: tuyaux1
+    2300020: tuyaux2
+    2300022: tuyaux_plane
+    2300024: tuyaux_plane1
+    2300026: Plank1
+    2300028: table_c
+    3300000: Box
+    3300002: pied
+    3300004: pied1
+    3300006: pied2
+    3300008: pied3
+    3300010: Plank
+    3300012: Plank2
+    3300014: //RootNode
+    3300016: tuyaux
+    3300018: tuyaux1
+    3300020: tuyaux2
+    3300022: tuyaux_plane
+    3300024: tuyaux_plane1
+    3300026: Plank1
+    3300028: table_c
+    4300000: Table
+    4300002: pied3
+    4300004: pied2
+    4300006: pied1
+    4300008: pied
+    4300010: tuyaux
+    4300012: Box
+    4300014: tuyaux_plane
+    4300016: tuyaux1
+    4300018: Plank
+    4300020: Plank2
+    4300022: tuyaux_plane1
+    4300024: tuyaux2
+    4300026: Plank1
+    4300028: table_c
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 1
+  userData: 
