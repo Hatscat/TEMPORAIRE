@@ -3,7 +3,6 @@ using System.Collections;
 
 public abstract class BaseManager<T> : MonoBehaviour where T: Component
 {
-    /*
 	public static T manager;
 
 	public bool dontDestroyGameObjectOnLoad=false;
@@ -16,7 +15,7 @@ public abstract class BaseManager<T> : MonoBehaviour where T: Component
 	protected virtual void Awake()
 	{
 		if(manager!=null)
-            Destroy(manager.gameObject);
+			Destroy(gameObject);
 		
 		manager = this as T;
 		
@@ -53,7 +52,7 @@ public abstract class BaseManager<T> : MonoBehaviour where T: Component
 			GameManager.manager.onGameScoreHasChanged+= ScoreHasChanged;
 		}
 		else Debug.LogError("BaseManager "+name+ " tells you: NO GameManager");
-        
+
 		StartCoroutine(CoroutineStart());
 	}
 
@@ -83,5 +82,4 @@ public abstract class BaseManager<T> : MonoBehaviour where T: Component
 	protected virtual void ScoreHasChanged(params object[] prms)
 	{
 	}
-     */
 }
