@@ -2,7 +2,7 @@
 using System.Collections;
 
 public abstract class Racket<T> : BaseManager<T> where T: Component {
-
+    /*
 	public IMove moveComponent;
 
 	#region BaseManager Overriden Methods
@@ -24,5 +24,5 @@ public abstract class Racket<T> : BaseManager<T> where T: Component {
 		if(moveComponent!=null)
 			moveComponent.Move();
 	}
-
+    */
 }

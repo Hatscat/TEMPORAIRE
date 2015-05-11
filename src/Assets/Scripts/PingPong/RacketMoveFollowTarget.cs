@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class MoveFollowTarget : MonoBehaviour, IMove {
-
+    /*
 	private Transform _transform;
 	private int followAxis=0;
 	private Transform target;
@@ -40,4 +40,5 @@ public class MoveFollowTarget : MonoBehaviour, IMove {
 		_transform.position = pos;
 	}
 	#endregion
+     */
 }

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class MenuManagerNGUI : MenuManager
 {
-
+    /*
     new void OnGUI()
     {
     }
@@ -12,4 +12,5 @@ public class MenuManagerNGUI : MenuManager
     {
         Debug.Log("User clicked button : " + UIButton.current.name);
     }
+     */
 }

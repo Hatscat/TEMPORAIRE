@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class EnemyRacket : Racket<EnemyRacket> {
-
+    /*
 	//ICI TOUS VOS CHAMPS ET PROPRIETES QUI ASSURENT LE GAMEPLAY
 	//... TO BE COMPLETED
 	//
@@ -19,4 +19,5 @@ public class EnemyRacket : Racket<EnemyRacket> {
 	//ICI TOUTES VOS METHODES SPECIFIQUES QUI ASSURENT LE GAMEPLAY
 	//... TO BE COMPLETED (...personnellement je n'ai pas eu besoin de rajouter des méthodes
 	//
+     */
 }

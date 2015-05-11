@@ -4,7 +4,7 @@ using System.Collections;
 
 
 public class MoveFromInput: MonoBehaviour, IMove {
-
+    /*
 	private int mouseAxis;
 	private Transform _transform;
 
@@ -48,4 +48,5 @@ public class MoveFromInput: MonoBehaviour, IMove {
 		_transform.position  = Vector3.Lerp(_transform.position,pos,CustomTimer.manager.DeltaTime*lerpCoef);
 	}
 	#endregion
+     */
 }

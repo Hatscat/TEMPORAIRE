@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class HudManager : BaseManager<HudManager> {
-
+    /*
 	#region Display booleans
     protected bool _DisplayServiceMsg
 	{
@@ -120,5 +120,5 @@ public class HudManager : BaseManager<HudManager> {
 			GUILayout.EndArea();
 		}
 	}
-
+    */
 }

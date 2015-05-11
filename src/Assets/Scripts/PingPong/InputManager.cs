@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class InputManager : BaseManager<InputManager> {
-
+    /*
 	#region BaseManager Overriden Methods
 	// Use this for initialization
 	protected override IEnumerator CoroutineStart ()
@@ -18,4 +18,5 @@ public class InputManager : BaseManager<InputManager> {
 		if(!IsReady) return;
 	
 	}
+     */
 }

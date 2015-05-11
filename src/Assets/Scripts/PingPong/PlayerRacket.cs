@@ -3,7 +3,7 @@ using System.Collections;
 using System;
 
 public class PlayerRacket : Racket<PlayerRacket> {
-	
+	/*
 	public Action onPlayerHasServed;
 	
 	[HideInInspector]
@@ -47,8 +47,9 @@ public class PlayerRacket : Racket<PlayerRacket> {
 		
 	}
 	#endregion
-
+    
 	//ICI TOUTES VOS METHODES SPECIFIQUES QUI ASSURENT LE GAMEPLAY
 	//... TO BE COMPLETED (...personnellement je n'ai pas eu besoin de rajouter des méthodes
 	//
+     */
 }

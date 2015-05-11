@@ -4,7 +4,7 @@ using System.Collections;
 public class AppLoaderNGUI : AppLoader
 {
 
-    public UIPanel panelLoadingLogo;
+    /*public UIPanel panelLoadingLogo;
     public UISprite sprBackground;
     public UISprite sprLogo;
 
@@ -22,5 +22,5 @@ public class AppLoaderNGUI : AppLoader
     {
         sprBackground.color = vanishing ? guiColor : Color.white;
         sprLogo.color = guiColor;
-    }
+    }*/
 }

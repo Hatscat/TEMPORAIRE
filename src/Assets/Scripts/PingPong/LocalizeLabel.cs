@@ -3,7 +3,7 @@ using System.Collections;
 
 public class LocalizeLabel : MonoBehaviour
 {
-
+    /*
     public string code;
 
     // Use this for initialization
@@ -17,4 +17,5 @@ public class LocalizeLabel : MonoBehaviour
         if (label) label.text = LANG.manager.TEXT(code);
         Destroy(this);
     }
+     */
 }

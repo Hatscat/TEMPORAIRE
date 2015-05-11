@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 // JobManager is just a proxy object so we have a launcher for the coroutines
 public class JobManager : MonoBehaviour
-{	
+{	/*
 	// only one JobManager can exist. We use a singleton pattern to enforce this.
 	static JobManager _instance = null;
 	
@@ -184,4 +184,5 @@ public class Job
 	}
 	
 	#endregion
+     */
 }

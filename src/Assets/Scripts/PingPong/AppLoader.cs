@@ -3,7 +3,7 @@ using System.Collections;
 
 public class AppLoader : MonoBehaviour {
 
-	public static AppLoader manager;
+	/*public static AppLoader manager;
 
 	public enum LOGO_SIZE_RESPECT_ASPECT_RATIO{doNotRespectAspectRatio,respectAspectRatioBasedOnWidth,respectAspectRatioBasedOnHeight};
 
@@ -90,5 +90,5 @@ public class AppLoader : MonoBehaviour {
 		GUI.DrawTexture(new Rect(0,0,Screen.width,Screen.height),background,ScaleMode.StretchToFill);
 		GUI.color = guiColor;
 		GUI.DrawTexture(new Rect(Screen.width/2f-logoSize.x/2f,Screen.height/2f-logoSize.y/2f,logoSize.x,logoSize.y),logo,ScaleMode.StretchToFill);
-	}
+	}*/
 }

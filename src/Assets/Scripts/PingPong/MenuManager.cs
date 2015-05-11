@@ -17,7 +17,7 @@ public class MenuManager : BaseManager<MenuManager>
 		public Vector2 gameTitleTextureSize;
 		private Vector2 _scrollPosition = Vector2.zero;
 		private string _newPlayerName = "";
-
+    /*
 
 	#region Display booleans
 		private bool _DisplayMainMenu {
@@ -220,4 +220,5 @@ public class MenuManager : BaseManager<MenuManager>
 						GUILayout.EndArea ();
 				}
 		}
+     */
 }

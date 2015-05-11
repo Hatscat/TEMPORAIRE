@@ -3,7 +3,7 @@ using System.Collections;
 using System;
 
 public static class GUITools  {
-	
+	/*
 	public static void TOPORLEFT(Action guiMethod)
 	{
 		if(guiMethod!=null) guiMethod();
@@ -104,4 +104,5 @@ public static class GUITools  {
 			GUILayout.Label(text,guiStyle);
 		});
 	}
+     */
 }

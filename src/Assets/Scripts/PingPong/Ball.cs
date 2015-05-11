@@ -5,6 +5,7 @@ using Random = UnityEngine.Random;
 
 public class Ball : BaseManager<Ball>
 {
+    /*
 	#region Events
 	public Action onBallHasBeenHitByPlayerRacket;
 	public Action onBallHasBeenMissedByPlayerRacket;
@@ -168,10 +169,10 @@ public class Ball : BaseManager<Ball>
 
         while (elapsedTime < duration)
         {
-            /*while (GameManager.manager.IsPaused)
-            {
-                yield return null;
-            }*/
+           // while (GameManager.manager.IsPaused)
+            //{
+            //    yield return null;
+            //}
 
             float k = Mathf.Clamp01(elapsedTime / duration);
 
@@ -190,5 +191,5 @@ public class Ball : BaseManager<Ball>
 
         _transform.position = targetPos;
     }
-
+*/
 }

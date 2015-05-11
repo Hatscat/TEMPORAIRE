@@ -3,7 +3,7 @@ using System.Collections;
 
 public class HudManagerNGUI : HudManager
 {
-
+    /*
     public UILabel labelPlayerName;
     public UILabel labelScoreName;
     public UILabel labelBestScoreName;
@@ -29,5 +29,5 @@ public class HudManagerNGUI : HudManager
         //_displayedScore = score;
         //_displayedBestScore = bestScore;
     }
-
+    */
 }

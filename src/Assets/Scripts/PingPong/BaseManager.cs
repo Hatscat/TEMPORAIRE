@@ -3,6 +3,7 @@ using System.Collections;
 
 public abstract class BaseManager<T> : MonoBehaviour where T: Component
 {
+    /*
 	public static T manager;
 
 	public bool dontDestroyGameObjectOnLoad=false;
@@ -82,4 +83,5 @@ public abstract class BaseManager<T> : MonoBehaviour where T: Component
 	protected virtual void ScoreHasChanged(params object[] prms)
 	{
 	}
+     */
 }

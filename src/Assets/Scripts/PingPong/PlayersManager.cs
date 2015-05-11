@@ -5,7 +5,7 @@ using System;
 using System.Text.RegularExpressions;
 
 public class PlayersManager : BaseManager<PlayersManager> {
-
+    /*
 	public bool resetPlayerPrefs;
 
 	public string DefaultPlayerName{ get{ return "Player1";}}
@@ -204,4 +204,5 @@ public class PlayersManager : BaseManager<PlayersManager> {
 			return _bestScores;
 		}
 	}
+     */
 }

@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class CustomTimer : MonoBehaviour {
-
+    /*
 	public static CustomTimer manager;
 
 	public bool IsRunning{get;private set;}
@@ -82,4 +82,5 @@ public class CustomTimer : MonoBehaviour {
 	void Update () {
 		ElapsedTime+=DeltaTime;
 	}
+     */
 }

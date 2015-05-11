@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class GameManager : MonoBehaviour {
-	
+	/*
 	public static GameManager manager;
 
 	#region Game States
@@ -176,4 +176,5 @@ public class GameManager : MonoBehaviour {
 			onGameMenu();
 	}
 	#endregion
+     */
 }
