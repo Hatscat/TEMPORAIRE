@@ -84,6 +84,7 @@ public class MenuManager : BaseManager<MenuManager>
 
     public void OnClick(GameObject go)
     {
+        Debug.Log("isPlay");
         if (go.name == "ButtonPlay")
         {
             LoadingScreen.SetActive(true);
