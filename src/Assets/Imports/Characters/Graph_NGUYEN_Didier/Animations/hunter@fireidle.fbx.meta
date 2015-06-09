@@ -1,0 +1,552 @@
+fileFormatVersion: 2
+guid: a9f25b52844c3924e99fc38b350ae2c9
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Ankle_L_CTRL
+    100002: Ankle_L_GRP
+    100004: Ankle_L_JNT
+    100006: Ankle_R_CTRL
+    100008: Ankle_R_GRP
+    100010: Ankle_R_JNT
+    100012: Arm_L_IKHL
+    100014: Arm_R_IKHL
+    100016: Ball_L_JNT
+    100018: Ball_R_JNT
+    100020: Chest_CTRL
+    100022: Chest_GRP
+    100024: Chest_JNT
+    100026: Elbow_L_JNT
+    100028: Elbow_L_LCT
+    100030: Elbow_R_JNT
+    100032: Elbow_R_LCT
+    100034: Head_JNT
+    100036: Hip_L_JNT
+    100038: Hip_R_JNT
+    100040: //RootNode
+    100042: Index_L_01_JNT
+    100044: Index_L_02_JNT
+    100046: Index_L_03_JNT
+    100048: Index_L_04_JNT
+    100050: Index_L_CTRL
+    100052: Index_L_GRP
+    100054: Index_R_01_JNT
+    100056: Index_R_02_JNT
+    100058: Index_R_03_JNT
+    100060: Index_R_04_JNT
+    100062: Index_R_CTRL
+    100064: Index_R_GRP
+    100066: joint1
+    100068: joint2
+    100070: Knee_L_JNT
+    100072: Knee_L_LCT
+    100074: Knee_R_JNT
+    100076: Knee_R_LCT
+    100078: Leg_L_IKHL
+    100080: Leg_R_IKHL
+    100082: Little_L_01_JNT
+    100084: Little_L_02_JNT
+    100086: Little_L_03_JNT
+    100088: Little_L_04_JNT
+    100090: Little_L_CTRL
+    100092: Little_L_GRP
+    100094: Little_R_CTRL
+    100096: Little_R_GRP
+    100098: locator1
+    100100: MESHFINAL
+    100102: MESHFINAL 1
+    100104: Middle_L_01_JNT
+    100106: Middle_L_02_JNT
+    100108: Middle_L_03_JNT
+    100110: Middle_L_04_JNT
+    100112: Middle_L_CTRL
+    100114: Middle_L_GRP
+    100116: Middle_R_01_JNT
+    100118: Middle_R_02_JNT
+    100120: Middle_R_03_JNT
+    100122: Middle_R_04_JNT
+    100124: Middle_R_CTRL
+    100126: Middle_R_GRP
+    100128: Neck_CTRL
+    100130: Neck_GRP
+    100132: Neck_JNT
+    100134: RIFLE
+    100136: RIFLE 1
+    100138: RIG
+    100140: Ring_L_01_JNT
+    100142: Ring_L_02_JNT
+    100144: Ring_L_03_JNT
+    100146: Ring_L_04_JNT
+    100148: Ring_L_CTRL
+    100150: Ring_L_GRP
+    100152: Ring_R_01_JNT
+    100154: Ring_R_02_JNT
+    100156: Ring_R_03_JNT
+    100158: Ring_R_04_JNT
+    100160: Ring_R_CTRL
+    100162: Ring_R_GRP
+    100164: Rittle_R_01_JNT
+    100166: Rittle_R_02_JNT
+    100168: Rittle_R_03_JNT
+    100170: Rittle_R_04_JNT
+    100172: Root_CTRL
+    100174: Root_GRP
+    100176: Root_JNT
+    100178: Shoulder_L_JNT
+    100180: Shoulder_R_JNT
+    100182: SKELETON
+    100184: Spine_CTRL
+    100186: Spine_GRP
+    100188: Spine_JNT
+    100190: Thumb_L_01_JNT
+    100192: Thumb_L_02_JNT
+    100194: Thumb_L_03_JNT
+    100196: Thumb_L_CTRL
+    100198: Thumb_L_GRP
+    100200: Thumb_R_01_JNT
+    100202: Thumb_R_02_JNT
+    100204: Thumb_R_03_JNT
+    100206: Thumb_R_CTRL
+    100208: Thumb_R_GRP
+    100210: Toe_L_JNT
+    100212: Toe_R_JNT
+    100214: Ultimate_CTRL
+    100216: Ultimate_GRP
+    100218: Wrist_L_CTRL
+    100220: Wrist_L_GRP
+    100222: Wrist_L_JNT
+    100224: Wrist_R_CTRL
+    100226: Wrist_R_GRP
+    100228: Wrist_R_JNT
+    400000: Ankle_L_CTRL
+    400002: Ankle_L_GRP
+    400004: Ankle_L_JNT
+    400006: Ankle_R_CTRL
+    400008: Ankle_R_GRP
+    400010: Ankle_R_JNT
+    400012: Arm_L_IKHL
+    400014: Arm_R_IKHL
+    400016: Ball_L_JNT
+    400018: Ball_R_JNT
+    400020: Chest_CTRL
+    400022: Chest_GRP
+    400024: Chest_JNT
+    400026: Elbow_L_JNT
+    400028: Elbow_L_LCT
+    400030: Elbow_R_JNT
+    400032: Elbow_R_LCT
+    400034: Head_JNT
+    400036: Hip_L_JNT
+    400038: Hip_R_JNT
+    400040: //RootNode
+    400042: Index_L_01_JNT
+    400044: Index_L_02_JNT
+    400046: Index_L_03_JNT
+    400048: Index_L_04_JNT
+    400050: Index_L_CTRL
+    400052: Index_L_GRP
+    400054: Index_R_01_JNT
+    400056: Index_R_02_JNT
+    400058: Index_R_03_JNT
+    400060: Index_R_04_JNT
+    400062: Index_R_CTRL
+    400064: Index_R_GRP
+    400066: joint1
+    400068: joint2
+    400070: Knee_L_JNT
+    400072: Knee_L_LCT
+    400074: Knee_R_JNT
+    400076: Knee_R_LCT
+    400078: Leg_L_IKHL
+    400080: Leg_R_IKHL
+    400082: Little_L_01_JNT
+    400084: Little_L_02_JNT
+    400086: Little_L_03_JNT
+    400088: Little_L_04_JNT
+    400090: Little_L_CTRL
+    400092: Little_L_GRP
+    400094: Little_R_CTRL
+    400096: Little_R_GRP
+    400098: locator1
+    400100: MESHFINAL
+    400102: MESHFINAL 1
+    400104: Middle_L_01_JNT
+    400106: Middle_L_02_JNT
+    400108: Middle_L_03_JNT
+    400110: Middle_L_04_JNT
+    400112: Middle_L_CTRL
+    400114: Middle_L_GRP
+    400116: Middle_R_01_JNT
+    400118: Middle_R_02_JNT
+    400120: Middle_R_03_JNT
+    400122: Middle_R_04_JNT
+    400124: Middle_R_CTRL
+    400126: Middle_R_GRP
+    400128: Neck_CTRL
+    400130: Neck_GRP
+    400132: Neck_JNT
+    400134: RIFLE
+    400136: RIFLE 1
+    400138: RIG
+    400140: Ring_L_01_JNT
+    400142: Ring_L_02_JNT
+    400144: Ring_L_03_JNT
+    400146: Ring_L_04_JNT
+    400148: Ring_L_CTRL
+    400150: Ring_L_GRP
+    400152: Ring_R_01_JNT
+    400154: Ring_R_02_JNT
+    400156: Ring_R_03_JNT
+    400158: Ring_R_04_JNT
+    400160: Ring_R_CTRL
+    400162: Ring_R_GRP
+    400164: Rittle_R_01_JNT
+    400166: Rittle_R_02_JNT
+    400168: Rittle_R_03_JNT
+    400170: Rittle_R_04_JNT
+    400172: Root_CTRL
+    400174: Root_GRP
+    400176: Root_JNT
+    400178: Shoulder_L_JNT
+    400180: Shoulder_R_JNT
+    400182: SKELETON
+    400184: Spine_CTRL
+    400186: Spine_GRP
+    400188: Spine_JNT
+    400190: Thumb_L_01_JNT
+    400192: Thumb_L_02_JNT
+    400194: Thumb_L_03_JNT
+    400196: Thumb_L_CTRL
+    400198: Thumb_L_GRP
+    400200: Thumb_R_01_JNT
+    400202: Thumb_R_02_JNT
+    400204: Thumb_R_03_JNT
+    400206: Thumb_R_CTRL
+    400208: Thumb_R_GRP
+    400210: Toe_L_JNT
+    400212: Toe_R_JNT
+    400214: Ultimate_CTRL
+    400216: Ultimate_GRP
+    400218: Wrist_L_CTRL
+    400220: Wrist_L_GRP
+    400222: Wrist_L_JNT
+    400224: Wrist_R_CTRL
+    400226: Wrist_R_GRP
+    400228: Wrist_R_JNT
+    4300000: MESHFINAL
+    4300002: RIFLE
+    7400000: fireidle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: MESHFINAL 1
+    13700002: RIFLE 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: fireidle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MESHFINAL
+        weight: 1
+      - path: MESHFINAL/MESHFINAL 1
+        weight: 1
+      - path: RIFLE
+        weight: 1
+      - path: RIFLE/joint1
+        weight: 1
+      - path: RIFLE/joint1/joint2
+        weight: 1
+      - path: RIFLE/locator1
+        weight: 1
+      - path: RIFLE/RIFLE 1
+        weight: 1
+      - path: RIG
+        weight: 1
+      - path: RIG/Ultimate_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Ankle_L_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Ankle_L_GRP/Ankle_L_CTRL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Ankle_L_GRP/Ankle_L_CTRL/Leg_L_IKHL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Ankle_R_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Ankle_R_GRP/Ankle_R_CTRL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Ankle_R_GRP/Ankle_R_CTRL/Leg_R_IKHL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Knee_L_LCT
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Knee_R_LCT
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Elbow_L_LCT
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Elbow_R_LCT
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Neck_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Neck_GRP/Neck_CTRL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_L_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_L_GRP/Wrist_L_CTRL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_L_GRP/Wrist_L_CTRL/Arm_L_IKHL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_L_GRP/Wrist_L_CTRL/Index_L_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_L_GRP/Wrist_L_CTRL/Index_L_GRP/Index_L_CTRL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_L_GRP/Wrist_L_CTRL/Little_L_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_L_GRP/Wrist_L_CTRL/Little_L_GRP/Little_L_CTRL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_L_GRP/Wrist_L_CTRL/Middle_L_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_L_GRP/Wrist_L_CTRL/Middle_L_GRP/Middle_L_CTRL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_L_GRP/Wrist_L_CTRL/Ring_L_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_L_GRP/Wrist_L_CTRL/Ring_L_GRP/Ring_L_CTRL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_L_GRP/Wrist_L_CTRL/Thumb_L_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_L_GRP/Wrist_L_CTRL/Thumb_L_GRP/Thumb_L_CTRL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_R_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_R_GRP/Wrist_R_CTRL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_R_GRP/Wrist_R_CTRL/Arm_R_IKHL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_R_GRP/Wrist_R_CTRL/Index_R_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_R_GRP/Wrist_R_CTRL/Index_R_GRP/Index_R_CTRL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_R_GRP/Wrist_R_CTRL/Little_R_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_R_GRP/Wrist_R_CTRL/Little_R_GRP/Little_R_CTRL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_R_GRP/Wrist_R_CTRL/Middle_R_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_R_GRP/Wrist_R_CTRL/Middle_R_GRP/Middle_R_CTRL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_R_GRP/Wrist_R_CTRL/Ring_R_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_R_GRP/Wrist_R_CTRL/Ring_R_GRP/Ring_R_CTRL
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_R_GRP/Wrist_R_CTRL/Thumb_R_GRP
+        weight: 1
+      - path: RIG/Ultimate_GRP/Ultimate_CTRL/Root_GRP/Root_CTRL/Spine_GRP/Spine_CTRL/Chest_GRP/Chest_CTRL/Wrist_R_GRP/Wrist_R_CTRL/Thumb_R_GRP/Thumb_R_CTRL
+        weight: 1
+      - path: SKELETON
+        weight: 1
+      - path: SKELETON/Root_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Hip_L_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Hip_L_JNT/Knee_L_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Hip_L_JNT/Knee_L_JNT/Ankle_L_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Hip_L_JNT/Knee_L_JNT/Ankle_L_JNT/Ball_L_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Hip_L_JNT/Knee_L_JNT/Ankle_L_JNT/Ball_L_JNT/Toe_L_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Hip_R_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Hip_R_JNT/Knee_R_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Hip_R_JNT/Knee_R_JNT/Ankle_R_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Hip_R_JNT/Knee_R_JNT/Ankle_R_JNT/Ball_R_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Hip_R_JNT/Knee_R_JNT/Ankle_R_JNT/Ball_R_JNT/Toe_R_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Neck_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Neck_JNT/Head_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Index_L_01_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Index_L_01_JNT/Index_L_02_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Index_L_01_JNT/Index_L_02_JNT/Index_L_03_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Index_L_01_JNT/Index_L_02_JNT/Index_L_03_JNT/Index_L_04_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Little_L_01_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Little_L_01_JNT/Little_L_02_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Little_L_01_JNT/Little_L_02_JNT/Little_L_03_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Little_L_01_JNT/Little_L_02_JNT/Little_L_03_JNT/Little_L_04_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Middle_L_01_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Middle_L_01_JNT/Middle_L_02_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Middle_L_01_JNT/Middle_L_02_JNT/Middle_L_03_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Middle_L_01_JNT/Middle_L_02_JNT/Middle_L_03_JNT/Middle_L_04_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Ring_L_01_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Ring_L_01_JNT/Ring_L_02_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Ring_L_01_JNT/Ring_L_02_JNT/Ring_L_03_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Ring_L_01_JNT/Ring_L_02_JNT/Ring_L_03_JNT/Ring_L_04_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Thumb_L_01_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Thumb_L_01_JNT/Thumb_L_02_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_L_JNT/Elbow_L_JNT/Wrist_L_JNT/Thumb_L_01_JNT/Thumb_L_02_JNT/Thumb_L_03_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Index_R_01_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Index_R_01_JNT/Index_R_02_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Index_R_01_JNT/Index_R_02_JNT/Index_R_03_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Index_R_01_JNT/Index_R_02_JNT/Index_R_03_JNT/Index_R_04_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Middle_R_01_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Middle_R_01_JNT/Middle_R_02_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Middle_R_01_JNT/Middle_R_02_JNT/Middle_R_03_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Middle_R_01_JNT/Middle_R_02_JNT/Middle_R_03_JNT/Middle_R_04_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Ring_R_01_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Ring_R_01_JNT/Ring_R_02_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Ring_R_01_JNT/Ring_R_02_JNT/Ring_R_03_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Ring_R_01_JNT/Ring_R_02_JNT/Ring_R_03_JNT/Ring_R_04_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Rittle_R_01_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Rittle_R_01_JNT/Rittle_R_02_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Rittle_R_01_JNT/Rittle_R_02_JNT/Rittle_R_03_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Rittle_R_01_JNT/Rittle_R_02_JNT/Rittle_R_03_JNT/Rittle_R_04_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Thumb_R_01_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Thumb_R_01_JNT/Thumb_R_02_JNT
+        weight: 1
+      - path: SKELETON/Root_JNT/Spine_JNT/Chest_JNT/Shoulder_R_JNT/Elbow_R_JNT/Wrist_R_JNT/Thumb_R_01_JNT/Thumb_R_02_JNT/Thumb_R_03_JNT
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
