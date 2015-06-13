@@ -3,7 +3,7 @@
 ///////////////////////////////////////////////////////////
 
 ComponentType vp_FPWeapon
-PositionOffset -0.01 -0.39 0.15
+PositionOffset 0 -0.2232973 0.15
 RotationOffset -2.611479 0 0
 RotationSpringStiffness 0.025
 RotationSpringDamping 0.35
