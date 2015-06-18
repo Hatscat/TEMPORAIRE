@@ -9,7 +9,7 @@ public class Shoot : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
     {
-		anim = GetComponent<Animation>();   
+		anim = GetComponent<Animation>();
 	}
 	
 	// Update is called once per frame
@@ -20,7 +20,5 @@ public class Shoot : MonoBehaviour {
     public void ActionShoot()
     {
         GameObject newBullet = Instantiate(go_bulletMDL, go_SpawnBullet.transform.position, Quaternion.identity) as GameObject;
-		if (!anim.IsPlaying("fire"))
-			anim.Play("fire");
     }
 }
