@@ -19,6 +19,7 @@ public class Shoot : MonoBehaviour {
 
     public void ActionShoot()
     {
-        GameObject newBullet = Instantiate(go_bulletMDL, go_SpawnBullet.transform.position, Quaternion.identity) as GameObject;
+        GameObject newBullet = Instantiate(go_bulletMDL, go_SpawnBullet.transform.position,transform.rotation) as GameObject;
+        newBullet.GetComponent<Bullet>().direction = transform.forward;
     }
 }
