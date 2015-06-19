@@ -29,6 +29,11 @@ public class AlertKitchen : MonoBehaviour {
 	}
 
     //Voir avec le wait dans behavior du cuistot pour la durée d'attente
+    public void DialogAlert()
+    {
+        DialogueManager.ShowAlert("Fouttez le camp de ma cuisine ! ALERTE !");
+    }
+
     public void Alert()
     {
         player.transform.position = startPointPlayer.transform.position;
@@ -36,6 +41,6 @@ public class AlertKitchen : MonoBehaviour {
         robotCuistotA.transform.position = startPointCuistotA.transform.position;
         robotCuistotB.transform.position = startPointCuistotB.transform.position;
         robotCuistotC.transform.position = startPointCuistotC.transform.position;
-		DialogueManager.ShowAlert ("Fouttez le camp de ma cuisine ! ALERTE !");
+		
     }
 }
