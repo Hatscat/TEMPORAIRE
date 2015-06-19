@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using PixelCrushers.DialogueSystem;
 
 public class AlertKitchen : MonoBehaviour {
 
@@ -35,5 +36,6 @@ public class AlertKitchen : MonoBehaviour {
         robotCuistotA.transform.position = startPointCuistotA.transform.position;
         robotCuistotB.transform.position = startPointCuistotB.transform.position;
         robotCuistotC.transform.position = startPointCuistotC.transform.position;
+		DialogueManager.ShowAlert ("Fouttez le camp de ma cuisine ! ALERTE !");
     }
 }
