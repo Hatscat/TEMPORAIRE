@@ -3,7 +3,10 @@ using System.Collections;
 
 public class PlayerManager : BaseManager<PlayerManager>
 {
-    
+
+    public static bool takeImplantB;
+    public static bool takeImplantA;
+
 	// Use this for initialization
 	#region BaseManager Overriden Methods
     protected override IEnumerator CoroutineStart()

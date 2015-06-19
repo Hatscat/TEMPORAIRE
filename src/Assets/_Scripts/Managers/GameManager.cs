@@ -5,6 +5,8 @@ public class GameManager : MonoBehaviour {
 
     public static GameManager manager;
 
+    public enum GAME_STATE_MISSION { tutorial, briefing,find_rooom_secret, armory, find_captain};
+
     #region Game States
     public enum GAME_STATE { menu, play, pause, gameover };
 
