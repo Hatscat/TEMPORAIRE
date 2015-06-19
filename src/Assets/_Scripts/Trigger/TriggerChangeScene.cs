@@ -3,6 +3,7 @@ using System.Collections;
 
 public class TriggerChangeScene : MonoBehaviour {
 
+	public string nameScene;
 	// Use this for initialization
 	void Start () {
 	
@@ -16,6 +17,6 @@ public class TriggerChangeScene : MonoBehaviour {
      
     void OnTriggerEnter(Collider other) 
     {
-        Application.LoadLevel("Wax");
+        Application.LoadLevel(nameScene);
     }
 }
