@@ -16,7 +16,7 @@ public class TimeManager : BaseManager<TimeManager> {
         IsReady = true;
         Debug.Log("Init TimeManager");
 
-        f_cooldown = _initCoolDownInS = 300;
+        f_cooldown = _initCoolDownInS = 240;
         //TODO TEST
         //TimerStart();
     }
