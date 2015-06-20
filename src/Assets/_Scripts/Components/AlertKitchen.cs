@@ -15,7 +15,7 @@ public class AlertKitchen : MonoBehaviour {
     public GameObject startPointPlayer;
     public GameObject player;
     
-
+    public AudioSource alertMusic;
 	// Use this for initialization
 	void Start () 
     {
@@ -36,11 +36,17 @@ public class AlertKitchen : MonoBehaviour {
 
     public void Alert()
     {
+        alertMusic.Stop();
         player.transform.position = startPointPlayer.transform.position;
 
         robotCuistotA.transform.position = startPointCuistotA.transform.position;
         robotCuistotB.transform.position = startPointCuistotB.transform.position;
         robotCuistotC.transform.position = startPointCuistotC.transform.position;
 		
+    }
+
+    public void AlertMusicFeedback()
+    {
+        alertMusic.Play();
     }
 }
