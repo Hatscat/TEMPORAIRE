@@ -8,10 +8,13 @@ public class MenuManager : BaseManager<MenuManager>
 {
     public GameObject LoadingScreen;
     public GameObject MenuScreen;
+    public GameObject PressStart;
+
     //Particle Playground
     public GameObject pp_titre;
     public GameObject pp_loading;
 
+    private bool isStart;
     private int cpt = 0;
     private float timerLoadingFake = 60;
     
@@ -81,7 +84,8 @@ public class MenuManager : BaseManager<MenuManager>
         MenuScreen.SetActive(true);
         pp_titre.SetActive(true);
         pp_loading.SetActive(false);
-       
+        PressStart.SetActive(true);
+        isStart = false;
     }
     #endregion
 
@@ -97,25 +101,30 @@ public class MenuManager : BaseManager<MenuManager>
     {
 
         if (!IsReady) return;
+        if (Input.GetAxis("start") == 1 && !isStart)
+           OnDownSpace();
 
     }
+    private void OnDownSpace()
+    {
+        isStart = true;
+        PressStart.SetActive(false);
+        MenuScreen.SetActive(false);
+        pp_loading.SetActive(true);
+        //titre.SetActive(false);
+        pp_titre.GetComponent<PlaygroundParticlesC>().loop = false;
+        //
+        Debug.Log("isPlay");
 
+        StartCoroutine(CoroutineLoading());
+    }
     public void OnClick(GameObject go)
     {
         Debug.Log("isPlay");
         if (go.name == "ButtonPlay")
         {
             //LoadingScreen.SetActive(true);
-            MenuScreen.SetActive(false);
-            pp_loading.SetActive(true);
-            //titre.SetActive(false);
-            pp_titre.GetComponent<PlaygroundParticlesC>().loop = false;
-            
-            
-            //
-            Debug.Log("isPlay");
            
-            StartCoroutine(CoroutineLoading());
         }
     }
 }
