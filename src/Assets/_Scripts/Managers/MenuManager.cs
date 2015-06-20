@@ -2,12 +2,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using System;
+using ParticlePlayground;
 
 public class MenuManager : BaseManager<MenuManager>
 {
     public GameObject LoadingScreen;
     public GameObject MenuScreen;
+    //Particle Playground
+    public GameObject pp_titre;
+    public GameObject pp_loading;
 
+    private int cpt = 0;
+    private float timerLoadingFake = 60;
+    
     protected enum MENU_STATE
     {
         mainMenu,
@@ -72,8 +79,19 @@ public class MenuManager : BaseManager<MenuManager>
         Debug.Log("Init MenuManager");
         LoadingScreen.SetActive(false);
         MenuScreen.SetActive(true);
+        pp_titre.SetActive(true);
+        pp_loading.SetActive(false);
+       
     }
     #endregion
+
+    private IEnumerator CoroutineLoading()
+    {
+        
+        yield return new WaitForSeconds(5);
+        onPlayButtonClicked();
+        Application.LoadLevel(1);
+    }
 
     void Update()
     {
@@ -87,11 +105,17 @@ public class MenuManager : BaseManager<MenuManager>
         Debug.Log("isPlay");
         if (go.name == "ButtonPlay")
         {
-            LoadingScreen.SetActive(true);
+            //LoadingScreen.SetActive(true);
             MenuScreen.SetActive(false);
-            Application.LoadLevel(1);
+            pp_loading.SetActive(true);
+            //titre.SetActive(false);
+            pp_titre.GetComponent<PlaygroundParticlesC>().loop = false;
+            
+            
+            //
             Debug.Log("isPlay");
-            onPlayButtonClicked();
+           
+            StartCoroutine(CoroutineLoading());
         }
     }
 }
