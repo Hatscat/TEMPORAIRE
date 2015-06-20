@@ -17,4 +17,8 @@ public class TriggerAlertMessage : MonoBehaviour {
 		DialogueManager.ShowAlert(message);
 		Destroy(gameObject);
 	}
+
+	public void Message() {
+		DialogueManager.ShowAlert(message);
+	}
 }
