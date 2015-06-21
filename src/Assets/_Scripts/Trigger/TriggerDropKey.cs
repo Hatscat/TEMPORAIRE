@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 using PixelCrushers.DialogueSystem;
-using System;
 
 public class TriggerDropKey : MonoBehaviour {
 	
@@ -18,7 +17,7 @@ public class TriggerDropKey : MonoBehaviour {
 		
 	}
 	
-	public void OnConversationEnd(string name) {
+	public void OnConversationEnd() {
 		switch (name){
 		case "Armor":
 			PlayerManager.manager.key_armory = true;
