@@ -7,15 +7,7 @@ public class GameManager : MonoBehaviour {
 
     //public enum GAME_STATE_MISSION { tutorial, briefing,find_rooom_secret, armory, find_captain};
     //Pas cacher pour debugage
-    public bool key_armory;
     
-    public bool key_implant_A;
-   
-    public bool key_implant_B;
-   
-    public bool key_pnj_find_captain;
-    
-    public bool key_area_2;
 
     #region Game States
     public enum GAME_STATE { menu, play, pause, gameover };

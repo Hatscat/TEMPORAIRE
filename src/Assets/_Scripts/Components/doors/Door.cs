@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using PixelCrushers.DialogueSystem;
 
 public class Door : MonoBehaviour {
 
@@ -9,6 +10,7 @@ public class Door : MonoBehaviour {
     bool waiting;
     bool opened;
     public bool playerCanOpen;
+    public string message;
 
     void Start()
     {
@@ -42,6 +44,10 @@ public class Door : MonoBehaviour {
 
             waiting = true;
             opened = true;
+        }
+        else
+        {
+            DialogueManager.ShowAlert(message);
         }
     }
 
