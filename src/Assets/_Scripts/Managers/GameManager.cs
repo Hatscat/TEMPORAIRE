@@ -6,15 +6,15 @@ public class GameManager : MonoBehaviour {
     public static GameManager manager;
 
     //public enum GAME_STATE_MISSION { tutorial, briefing,find_rooom_secret, armory, find_captain};
-    [HideInInspector]
+    //Pas cacher pour debugage
     public bool key_armory;
-    [HideInInspector]
+    
     public bool key_implant_A;
-    [HideInInspector]
+   
     public bool key_implant_B;
-    [HideInInspector]
+   
     public bool key_pnj_find_captain;
-    [HideInInspector]
+    
     public bool key_area_2;
 
     #region Game States

@@ -31,10 +31,10 @@ public class Door : MonoBehaviour {
 
     void OnTriggerEnter()
     {
-
+        SetPlayerCanOpen();
         if (!opened && playerCanOpen)
         {
-
+            Debug.Log("Sesame");
             waitCounter = Time.time + wait;
 
             animatedObject.animation["Take 001"].speed = 1;
@@ -64,5 +64,10 @@ public class Door : MonoBehaviour {
                 opened = false;
             }
         }
+    }
+
+    public virtual void SetPlayerCanOpen()
+    {
+        
     }
 }

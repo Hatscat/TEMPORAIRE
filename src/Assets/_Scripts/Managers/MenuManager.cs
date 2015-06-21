@@ -14,6 +14,8 @@ public class MenuManager : BaseManager<MenuManager>
     public GameObject pp_titre;
     public GameObject pp_loading;
 
+    public String scene;
+
     private bool isStart;
     private int cpt = 0;
     private float timerLoadingFake = 60;
@@ -94,7 +96,7 @@ public class MenuManager : BaseManager<MenuManager>
         
         yield return new WaitForSeconds(5);
         onPlayButtonClicked();
-        Application.LoadLevel(1);
+        Application.LoadLevel(scene);
     }
 
     void Update()
