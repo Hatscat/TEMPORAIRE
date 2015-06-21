@@ -4,11 +4,16 @@ using System.Collections;
 public class GameManager : MonoBehaviour {
 
     public static GameManager manager;
-
-    //public enum GAME_STATE_MISSION { tutorial, briefing,find_rooom_secret, armory, find_captain};
-    //Pas cacher pour debugage
+    //tutorial
+    //briefing
+    //find_rooom_secret
+    //pnj_armory
+    //find_black_material
+    //find_pnj_code_area_2
+    //find_pnj_code_cockpit
+    //find_captain
+    public string mission;
     
-
     #region Game States
     public enum GAME_STATE { menu, play, pause, gameover };
 
