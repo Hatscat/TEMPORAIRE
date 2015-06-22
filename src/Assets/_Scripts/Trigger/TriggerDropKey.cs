@@ -14,7 +14,7 @@ public class TriggerDropKey : MonoBehaviour {
         {
             case "Black":
                 PlayerManager.manager.key_black_material = true;
-				DialogueManager.ShowAlert("Code de la Salle Matiere noire");
+				DialogueManager.ShowAlert("Vous recevez code de la 'Salle Secrete'" );
                 break;
         }
 	}
