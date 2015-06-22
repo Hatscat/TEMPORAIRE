@@ -17,6 +17,8 @@ public class PlayerManager : BaseManager<PlayerManager>
     public bool key_black_material;
     public bool key_room_ammo;
 
+    public bool weaponActive;
+
 	// Use this for initialization
 	#region BaseManager Overriden Methods
     protected override IEnumerator CoroutineStart()
