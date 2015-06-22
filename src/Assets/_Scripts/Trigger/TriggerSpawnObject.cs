@@ -18,6 +18,7 @@ public class TriggerSpawnObject : MonoBehaviour {
 	}
 
 	public void OnConversationEnd(Transform go_SpawnObject) {
+        PlayerManager.manager.weaponActive = true;
 		GameObject newObject = Instantiate(go_objectMDL, go_SpawnObject.position,transform.rotation) as GameObject;
 
 	}
