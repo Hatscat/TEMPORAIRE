@@ -51,4 +51,14 @@ public class TimeManager : BaseManager<TimeManager> {
     {
         f_cooldown = _initCoolDownInS;
     }
+
+    public void UpdateDisplay()
+    {
+        display = GameObject.Find("gui_cooldown");
+        //TODO
+        var min = f_cooldown / 60;
+        var sec = f_cooldown % 60;
+        display.GetComponent<GUIText>().text = string.Format("{0:00}:{1:00}", min, sec);
+        isActive = true;
+    }
 }
