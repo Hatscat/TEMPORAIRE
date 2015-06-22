@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-public class AsciiEffect : ImageEffectBase
+public class GreenAsciiEffect : ImageEffectBase
 {
     // Called by camera to apply image effect
     void OnRenderImage (RenderTexture source, RenderTexture destination)

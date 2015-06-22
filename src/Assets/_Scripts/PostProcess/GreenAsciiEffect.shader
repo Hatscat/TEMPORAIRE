@@ -1,4 +1,4 @@
-﻿Shader "Custom/AsciiEffect" {
+﻿Shader "Custom/GreenAsciiEffect" {
 	Properties {
 		_MainTex ("Base (RGB)", 2D) = "white" {}
 		_pixelSize ("pixel size", Float) = 10.0
@@ -26,7 +26,7 @@
 				{
 					if (int(fmod(n / exp2(p.x + 5.0 * p.y), 2.0)) == 1) return 1.0;
 				}
-				return 0.1;
+				return 0.0;
 			}
 
 			fixed4 frag (v2f_img i) : SV_Target
@@ -45,8 +45,7 @@
 				if (gray > 0.8) n = 11512810.0; // #
 
 				fixed2 p = fmod( i.uv * _ScreenParams.xy / ( _pixelSize * 0.5 ), 2.0) - fixed2(1.0);
-				col = col * character(n, p);
-				//col = fixed3(0.0,1.0,0.0) * character(n, p);
+				col = fixed3(0.0,1.0,0.0) * character(n, p);
 				
 				return fixed4(col.rgb, 1.0);
 			}
