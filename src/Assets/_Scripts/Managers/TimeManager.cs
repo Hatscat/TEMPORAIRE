@@ -5,9 +5,11 @@ public class TimeManager : BaseManager<TimeManager> {
 
     public static float f_cooldown; //Inspector
 
-    private float _initCoolDownInS;
+    //240 def
+    public float initCoolDownInS;
     private bool isActive;
     private GameObject display;
+    public string scene;
 
     #region BaseManager Overriden Methods
     protected override IEnumerator CoroutineStart()
@@ -16,7 +18,7 @@ public class TimeManager : BaseManager<TimeManager> {
         IsReady = true;
         Debug.Log("Init TimeManager");
 
-        f_cooldown = _initCoolDownInS = 240;
+        f_cooldown = initCoolDownInS;
         //TODO TEST
         //TimerStart();
     }
@@ -33,6 +35,12 @@ public class TimeManager : BaseManager<TimeManager> {
             var sec = f_cooldown % 60;
             display.GetComponent<GUIText>().text = string.Format("{0:00}:{1:00}", min, sec);
         }
+        if (f_cooldown <= 0 && isActive)
+        {
+            isActive = false;
+            Application.LoadLevel(scene);
+           
+        }
             
             
     }
@@ -41,6 +49,7 @@ public class TimeManager : BaseManager<TimeManager> {
     {
         display = GameObject.Find("gui_cooldown");
         //TODO
+        f_cooldown = initCoolDownInS;
         var min = f_cooldown / 60;
         var sec = f_cooldown % 60;
         display.GetComponent<GUIText>().text = string.Format("{0:00}:{1:00}", min, sec);
@@ -49,7 +58,7 @@ public class TimeManager : BaseManager<TimeManager> {
 
     public void Reset()
     {
-        f_cooldown = _initCoolDownInS;
+        f_cooldown = initCoolDownInS;
     }
 
     public void UpdateDisplay()
