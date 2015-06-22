@@ -1,7 +1,7 @@
 ﻿Shader "Custom/AsciiEffect" {
 	Properties {
 		_MainTex ("Base (RGB)", 2D) = "white" {}
-		_pixelSize ("pixel size", Float) = 8.0
+		_pixelSize ("pixel size", Float) = 10.0
 	}
 	SubShader {
 		Pass {
