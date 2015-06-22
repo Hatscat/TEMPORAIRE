@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using PixelCrushers.DialogueSystem;
 
 public class Door : MonoBehaviour {
 
@@ -9,6 +10,7 @@ public class Door : MonoBehaviour {
     bool waiting;
     bool opened;
     public bool playerCanOpen;
+    public string message;
 
     void Start()
     {
@@ -31,10 +33,10 @@ public class Door : MonoBehaviour {
 
     void OnTriggerEnter()
     {
-
+        SetPlayerCanOpen();
         if (!opened && playerCanOpen)
         {
-
+            Debug.Log("Sesame");
             waitCounter = Time.time + wait;
 
             animatedObject.animation["Take 001"].speed = 1;
@@ -42,6 +44,10 @@ public class Door : MonoBehaviour {
 
             waiting = true;
             opened = true;
+        }
+        else
+        {
+            DialogueManager.ShowAlert(message);
         }
     }
 
@@ -64,5 +70,10 @@ public class Door : MonoBehaviour {
                 opened = false;
             }
         }
+    }
+
+    public virtual void SetPlayerCanOpen()
+    {
+        
     }
 }

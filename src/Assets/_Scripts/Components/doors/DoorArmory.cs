@@ -3,25 +3,8 @@ using System.Collections;
 
 public class DoorArmory : Door {
 
-
-
-    
-
-    void Start()
+    public override void SetPlayerCanOpen()
     {
-
-       
-
+        this.playerCanOpen = PlayerManager.manager.key_armory;
     }
-
-
-   
-
-
-    void Update()
-    {
-        this.playerCanOpen = GameManager.manager.key_armory;
-    }
-
-
 }
