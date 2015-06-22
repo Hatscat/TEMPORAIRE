@@ -26,7 +26,7 @@
 				{
 					if (int(fmod(n / exp2(p.x + 5.0 * p.y), 2.0)) == 1) return 1.0;
 				}
-				return 0.0;
+				return 0.1;
 			}
 
 			fixed4 frag (v2f_img i) : SV_Target
