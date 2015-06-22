@@ -36,13 +36,13 @@
 				fixed gray = (col.r + col.g + col.b) / 3.0;
 
 				float n =  65536.0;             // .
-				if (gray > 0.2) n = 65600.0;    // :
-				if (gray > 0.3) n = 332772.0;   // *
-				if (gray > 0.4) n = 15255086.0; // o
-				if (gray > 0.5) n = 23385164.0; // &
-				if (gray > 0.6) n = 15252014.0; // 8
-				if (gray > 0.7) n = 13199452.0; // @
-				if (gray > 0.8) n = 11512810.0; // #
+				if (gray > 0.1) n = 65600.0;    // :
+				if (gray > 0.2) n = 332772.0;   // *
+				if (gray > 0.3) n = 15255086.0; // o
+				if (gray > 0.4) n = 23385164.0; // &
+				if (gray > 0.5) n = 15252014.0; // 8
+				if (gray > 0.6) n = 13199452.0; // @
+				if (gray > 0.7) n = 11512810.0; // #
 
 				fixed2 p = fmod( i.uv * _ScreenParams.xy / ( _pixelSize * 0.5 ), 2.0) - fixed2(1.0);
 				col = col * character(n, p);
