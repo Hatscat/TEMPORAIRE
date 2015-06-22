@@ -10,6 +10,12 @@ public class TriggerDropKey : MonoBehaviour {
 	void Start () 
 	{
 		//GameObject newObject = Instantiate(go_objectMDL, go_SpawnObject.transform.position,transform.rotation) as GameObject;
+        switch (name)
+        {
+            case "Black":
+                PlayerManager.manager.key_black_material = true;
+                break;
+        }
 	}
 	
 	// Update is called once per frame
