@@ -14,6 +14,7 @@ public class TriggerDropKey : MonoBehaviour {
         {
             case "Black":
                 PlayerManager.manager.key_black_material = true;
+				DialogueManager.ShowAlert("Code de la Salle Matiere noire");
                 break;
         }
 	}
@@ -27,6 +28,7 @@ public class TriggerDropKey : MonoBehaviour {
 		switch (name){
 		case "Armor":
 			PlayerManager.manager.key_armory = true;
+			DialogueManager.ShowAlert("Code de l'Amurie");
 			break;
 		case "ImplantA":
 			PlayerManager.manager.key_implant_A = true;
@@ -36,15 +38,19 @@ public class TriggerDropKey : MonoBehaviour {
 			break;
 		case "Area2":
 			PlayerManager.manager.key_area_2 = true;
+			DialogueManager.ShowAlert("Code de la salle des Machines");
 			break;
 		case "Cokpit":
 			PlayerManager.manager.key_cokpit = true;
+			DialogueManager.ShowAlert("Code du Cokpit");
 			break;
 		case "Black":
 			PlayerManager.manager.key_black_material = true;
+			DialogueManager.ShowAlert("Code de la Salle Matiere noire");
 			break;
 		case "Ammo":
 			PlayerManager.manager.key_room_ammo = true;
+			DialogueManager.ShowAlert("Code de la Salle Munition");
 			break;
 		}
 	}
